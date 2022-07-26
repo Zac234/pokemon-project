@@ -52,16 +52,13 @@ let second ={
     attacks:["scratch", "water gun", "tackle"],
     image: document.getElementById("todadile")
 }
-let second_json= JSON.stringify(second)
-cookies.set(user,second_json)
+
 let third= {
     name: "bulbasaur",
     health:25,
     attacks:[ "vine whip", "tackle", "scratch"],
     image:document.getElementById("bulbasaur")
 }
-let third_json=JSON.stringify(third)
-cookies.set(user,third_json)
 
 
 let fourth={
@@ -70,8 +67,7 @@ let fourth={
     attacks:["rollout", "tackle", "scratch"],
     image:document.getElementById("miltank")
 }
-let fourth_json=JSON.stringify(fourth)
-cookies.set(user,fourth_json)
+
 
 
 
